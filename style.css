@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.active {
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.body .html {
+    overflow-x: hidden;
+}
+
+.narvar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: beige;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+.nav-links {
+    margin: 0 30px;   
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./image/Pateros.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+}
+.header-content {
+    margin-bottom: 150px;
+    color: aliceblue;
+    text-align: center;
+}
+.header-content h2 {
+    font-size: 20vmin;
+}
+h2{
+    font-size: 8vmin;
+}
+.line {
+    width: 150px;
+    height: 4px;
+    background-color: chartreuse;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size: 7vmin;
+    text-align: center;
+    margin: 50px;
+    margin-bottom: 30px;
+}
+h1{
+    font-size: 8vmin;
+    text-align: center;
+    background-color: green;
+}
+
+.ctn {
+    padding: 8px 15px;
+    background-color: blueviolet;
+    border-radius: 30px;
+    color: aliceblue;
+}
+/*About Mental Health*/
+section {
+    width: 80%;
+    margin: 80px auto;
+}
+.title {
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(102, 255, 0);
+}
+.row {
+    display: flex;
+    align-items: Left Top;
+    justify-content: space-between;
+    
+}
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.col {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.events .row {
+    margin-top: 50px;
+}
+h4 {
+    font-size: 3vmin;
+    color: #404040;
+    margin: 20px auto;
+}
+p {
+    color: #000000;
+    padding: 0px 40px;
+}
+.events .ctn {
+    margin-top: 30px;
+}
+.events{
+    background-color: rgb(248, 250, 248);
+}
+
+.important {
+    background-color:  rgb(248, 250, 248);
+}
+p{
+    font-size: 4vmin;
+}
+.motivation {
+    width: 100vh;
+    height: 100vh;
+    background-image: url(./image/images3.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.motivation-content {
+    width: 70%;
+    padding: 50px;
+    color: rgb(46, 10, 114);
+}
+.motivation-content h1 {
+    font-size: 7vmin;
+   }
+.motivation-content .line {
+    margin-bottom: 50px;
+}
+.motivation-content p {
+    font-size: 3vmin;
+    color: rgb(0, 0, 0);
+}
+.bible {
+    width: 100vh;
+    height: 100vh;
+    background-image: url(./image/bible.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+.bible-content {
+    font-size: 4vmin;
+    width: 70%;
+    padding: 50px;
+    color: aqua;
+}
+
+.partners
+.partners .image-gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+.image-gallery img{
+    width: 300px;
+}
+.partners{
+    background-color: rgb(178, 238, 170);
+}
+.students {
+    height: fit-content;
+    background-image: url(./image/PTC.jpg);
+}
+
+
+/*Mobile Device*/
+@media only screen and (max-with:850px) {
+    .narvar{
+        padding: 0;
+    }
+    .logo {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    .nav-links {
+        flex-direction: column;
+        width: 100%;
+        height: 100vh;
+        justify-content: center;
+        background-color: rgb(40, 40, 168);
+    }
+    .nav-links {
+        margin: 30px auto;
+    }
+   
+}
